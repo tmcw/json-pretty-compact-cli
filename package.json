@@ -1,0 +1,23 @@
+{
+  "name": "json-pretty-compact-cli",
+  "version": "1.0.0",
+  "description": "a cli for json pretty compact",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "json-pretty-compact": "./index.js"
+  },
+  "keywords": [
+    "json",
+    "pretty",
+    "compact"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "json-stringify-pretty-compact": "^1.0.1"
+  }
+}
